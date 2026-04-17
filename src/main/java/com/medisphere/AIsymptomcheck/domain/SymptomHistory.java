@@ -18,7 +18,7 @@ public class SymptomHistory {
     private Integer id;
 
     // patientId extracted from JWT — not a FK since separate DB
-    @Column(name = "patient_id", nullable = false, length = 50)
+    @Column(name = "patient_id", nullable = false, length = 100)
     private String patientId;
 
     @Column(name = "age", length = 10)
